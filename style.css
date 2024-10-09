@@ -375,6 +375,7 @@ li>a>button:hover>span:first-of-type {
  .titulo {
     text-align: center;
     font-size: 4.5rem;
+    width: 47px;
  }
 
  
@@ -420,11 +421,26 @@ li>a>button:hover>span:first-of-type {
  /*portafolio section code*/
 
  .portafolio-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px, auto));
+    display: flex;
+    flex-direction: column;
     gap: 2.3rem;
     margin-top: 4.2rem;
     align-items: center;
+ }
+
+ .music{
+    display: flex;
+    gap: 50px;
+ }
+
+ .hobbies{
+    display: flex;
+    gap: 50px;
+ }
+
+ .img-historia{
+    width: 200px;
+    aspect-ratio: 1/1;
  }
 
  .row {
@@ -434,6 +450,8 @@ li>a>button:hover>span:first-of-type {
     box-shadow: 0 0 5px crimson;
     padding: 20px;
     transition: all 0.3s ease;
+    width: 100%;
+    
  }
 
  .row img {
@@ -483,25 +501,25 @@ li>a>button:hover>span:first-of-type {
  
  /* Contact section code */
 
- .contact h2 {
+ .contacto h2 {
     margin-bottom: 3rem;
  }
 
- .contact form {
+ .contacto form {
     max-width: 90rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
  }
 
- .contact form .input-box {
+ .contacto form .input-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
  }
 
- .contact form .input-box input,
- .contact form textarea {
+ .contacto form .input-box input,
+ .contacto form textarea {
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
@@ -514,16 +532,16 @@ li>a>button:hover>span:first-of-type {
 
  }
 
- .contact form .input-box input,
- .contact form textarea:hover {
+ .contacto form .input-box input,
+ .contacto form textarea:hover {
     border: 1px solid crimson;
  } 
 
- .contact form .input-box input {
+ .contacto form .input-box input {
     width: 49%;
     margin: 0.7rem 0.35rem;
  }
-  .contact .btn-t {
+  .contacto .btn-t {
     margin-top: 2rem;
     display: inline-block;
     justify-content: center;
@@ -542,7 +560,7 @@ li>a>button:hover>span:first-of-type {
     transition: all 0.3s ease;
   }
 
-  .contact form .btn-t:hover {
+  .contacto form .btn-t:hover {
     color: crimson;
     background: none;
   }
@@ -664,9 +682,7 @@ li>a>button:hover>span:first-of-type {
         flex-direction: column;
     }
 
-    .contact form .input-box input {
+    .contacto form .input-box input {
         width: 100%;
     }
 }
-
-
