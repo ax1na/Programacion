@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade Rojas</title>
+    <link rel="stylesheet" href="css/libs.bundle.css">
+    <link rel="stylesheet" href="css/libs.bundle.css.map">
+    <link rel="stylesheet" href="css/theme.bundle.css">
+    <link rel="stylesheet" href="css/theme.bundle.css.map">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="#">portafo<span>lio.</span></a></div>
+        <ul class="menu">
+            <li>
+                <a href="#home">
+                    <button type="button">
+                        <span>Hogar</span>
+                        <span class="fa-solid fa-hous"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#acerca">
+                    <button type="button">
+                        <span>acerca de</span>
+                        <span class="fa-solid fa-address-card"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    <button type="button">
+                        <span>Skills</span>
+                        <span class="fa-solid fa-sliders"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#gustos">
+                    <button type="button">
+                        <span>Gustos</span>
+                        <span class="fa-solid fa-mountain-sun"></span>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    <button type="button">
+                        <span>contacto</span>
+                        <span class="fa-solid fa-headset"></span>
+                    </button>
+                </a>
+            </li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+    <!--Home section code-->
+    <section class="Home" id="Home">
+        <div id="home" class="featured-text">
+            <div class="hello">
+                <p class="parrafo">Hola Soy</p>
+            </div>
+            <div class="featured-name">
+                <span id="sliderValue"></span>
+            </div>
+            <div class="featured-text-info">
+                <p class="parrafo">Mi nombre es Jade, Soy desarrolladora web principiante.</p>
+            </div>
+            <div class="social_icons">
+                <a href="https://www.facebook.com/put4conlaqueandas/?locale=es_LA"><i class="fab fa-facebook" style="color: crimson;"></i></a>
+                <a href="https://x.com/rojas_jade58410"><i class="fab fa-twitter" style="color: crimson;"></i></a>
+                <a href="https://www.instagram.com/xin1t_/?next=%2F"><i class="fab fa-instagram" style="color: crimson;"></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img  src="img/yo.jpeg" alt="" onclick="alertita()">
+        </div>
+    </section>
+
+
+    <!--- About section code --->
+
+    <section class="About" id="acerca">
+        <div class="max-width">
+            <div class="about-container">
+                <div class="about">
+                    <h1 class="title_h1">Acerca de mi</h1>
+                    <p>Hola me llamo Jade, tengo 17 años y soy una programadora principal. Soy una persona amistosa que
+                        te puede apoyar en varias cosas, soy empatica, soy media sutil y me gusta mucho ayudar a la
+                        gente que lo necesita</p>
+                </div>
+            </div>
+            <div class="about_social">
+                <a href="https://www.facebook.com/put4conlaqueandas/?locale=es_LA"><i class="fab fa-facebook"></i></a>
+                <a href="https://discord.com/channels/@me"><i class="fab fa-discord"></i></a>
+                <a href="https://www.instagram.com/xin1t_/?next=%2F"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <a href="#" class="btn-b">Download cv</a>
+    </section>
+
+
+    <!--services section code-->
+
+<!-- Skills -->
+        <!-- Skills Section-->
+
+        <!-- <section class="services" id="services">
+            <h2 class="heading">asignaturas <span>que </span>domino</h2>
+            <div class="serv-content">
+                <div class="services-list">
+                    <div> -->
+        <div id="skills" class="py-8 skills">
+            <div class="mb-6 py-2" data-aos="reveal-right">
+                <h3 class="skills"><span >Mis</span>
+                    Skills</h3>
+
+            </div>
+            <div class="row gx-10 gy-5">
+                <!-- Single Skill-->
+                <div class="col-12 col-md-6" data-aos="reveal-right">
+                    <div class="d-flex align-items-center">
+                        <picture>
+                            <img class="f-h-8" src="img/css.png" alt="">
+                        </picture>
+                        <p class="fw-medium ms-3 mb-0 lenguajes ">CSS</p>
+                    </div>
+                    <div class="progress f-h-1 mt-4">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <!-- / Single Skill -->
+                <!-- Single Skill-->
+                <div class="col-12 col-md-6" data-aos="reveal-right">
+                    <div class="d-flex align-items-center">
+                        <picture>
+                            <img class="f-h-8" src="img/html.png" alt="">
+                        </picture>
+                        <p class="fw-medium ms-3 mb-0 lenguajes ">HTML</p>
+                    </div>
+                    <div class="progress f-h-1 mt-4">
+                        <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <!-- / Single Skill -->
+
+                <!-- Single Skill-->
+                <div class="col-12 col-md-6" data-aos="reveal-right">
+                    <div class="d-flex align-items-center">
+                        <picture>
+                            <img class="f-h-8" src="img/js.png"  alt="">
+                        </picture>
+                        <p class="fw-medium ms-3 mb-0 lenguajes ">JS</p>
+                    </div>
+                    <div class="progress f-h-1 mt-4">
+                        <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <!-- / Single Skill -->
+
+
+            </div>
+        </div>
+        <!-- /Skills Section--> <!-- /Skills-->
+
+
+
+
+
+
+    <!--portafolio section code-->
+    <section class="portafolio" id="gustos">
+        <div class="portafolio-content">
+            <h2 class="heading">Mis <span>gustos musicales</span></h2>
+            <section class="music">
+                <div class="row">
+                    <img src="img/beny2.jpeg" alt="">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>El precio del dinero</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i class="bx bxl-github"></i>
+                        </div>
+                    </div>
+                    <h4>Beny Jr </h4>
+                </div>
+
+                <div class="row">
+                    <img src="img/beny3.jpeg" alt="">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Capitulo 1</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i class="bx bxl-github"></i>
+                        </div>
+                    </div>
+                    <h4>Beny Jr, Morad K y B</h4>
+                </div>
+            </section>
+            <h2 class="heading">Mis <span>Hobbies</span></h2>
+            <section class="hobbies" id="hobbies">
+
+                <div class="row">
+                    <img src="img/musica.jpeg" alt="">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Escuchar musica</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i class="bx bxl-github"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <img src="img/fotos.jpeg" alt="">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Sacar fotos</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i></i>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+            </section>
+            <h2 class="heading">Mis <span>demos</span></h2>
+            <section class="hobbies" id="hobbies">
+
+                <div class="row">
+
+                    
+                    <a href="https://ax1na.github.io/demo-11">
+                        <img src="img/option-c.png" alt=""> 
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>demo 1</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i class="bx bxl-github"></i>
+                        </div>
+                    </div>
+                </a>
+                
+
+
+                    
+                </div>
+                <div class="row">
+                    <a href="https://ax1na.github.io/demo-/"><img src="img/formaA.png" alt="">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>demo 2</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i class="bx bxl-github"></i>
+                        </div>
+                    </div>
+                </a>xin1t_
+
+                    
+                </div>
+                <div class="row">
+                    <a href="https://ax1na.github.io/demo-3/"><img src="img/demo3-grupoA (1) (1).webp" alt="">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>demo 3</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i></i>
+                        </div>
+                    </div></a>
+
+                    </section>
+            <h2 class="heading">Mis <span>juegos</span></h2>
+            <section class="hobbies" id="hobbies">
+
+                <div class="row">
+                    <a href="https://ax1na.github.io/cat/"><img src="img/cat.jpeg" alt="">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Cat</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i class="bx bxl-github"></i>
+                        </div>
+                    </div>
+                </a>
+                    </div>
+                <div class="row">
+                    <a href="https://ax1na.github.io/invasoress/"><img src="img/invasores.jpeg" alt="Juego de invasores"></a>
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Invasores</h5>
+                        </div>
+                        <div class="row-icons">
+                            <i></i>
+                        </div>
+                    </div>
+
+
+            </section>
+            <!--cotact section code-->
+            <section class="contacto " id="contact">
+                <h2 class="heading">contacta<span>me</span></h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" required placeholder="full name">
+                        <input type="email" required placeholder="Email Address">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" required placeholder="phone number">
+                        <input type="text" required placeholder="subject">
+                    </div>
+                    <textarea name="menssage" required id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                    <input type="submit" value="Send message" class="btn-t">
+
+                </form>
+            </section>
+
+            <footer class="footer">
+                <div class="social">
+                    <a href="https://github.com/ax1na"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/put4conlaqueandas/?locale=es_LA"><i class=" fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/xin1t_/?next=%2F"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discord.com/channels/@me"><i class="fab fa-discord"></i></a>
+
+                </div>
+                <p class="copyright">
+                    &copy;creadores de codigo Todos los derechos reservados
+                </p>
+            </footer>
+            <script src="https://unpkg.com/scrollreveal"></script>
+            <script src="script.js"></script>
+
+            <!-- Cookies -->
+    <!-- <div class="aviso-cookies activo" id="aviso-cookies">
+        <img class="galleta" src="/dist/assets/images/cookie.png" alt="Galleta">
+        <h3 class="titulo">Cookies</h3>
+        <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+        <button class="boton" id="aceptar-cookies">De acuerdo</button>
+        <a class="enlace" href="#">Aviso de Cookies</a>
+    </div> -->
+</body>
+
+</html>
